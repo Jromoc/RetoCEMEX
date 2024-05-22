@@ -6,3 +6,7 @@ st.set_page_config(
 )
 
 st.write("# Welcome to Streamlit! 👋")
+
+inputA = st.text_input()
+
+st.write(inputA)
